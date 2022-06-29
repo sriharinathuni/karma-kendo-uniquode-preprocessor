@@ -1,0 +1,38 @@
+{
+  "name": "karma-kendo-uniquode-preprocessor",
+  "description": "A Karma plugin. Compile Html with Kendo Template Scripts to AngularJS template cache",
+  "license": "MIT",
+  "version": "1.0.5",
+  "author": "Sri Harinath Telaprolu <sriharinath.telaprolu@uniquode.in>",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/sriharinathuni/karma-kendo-uniquode-preprocessor#readme",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "html2js",
+    "karma-plugin",
+    "karma-preprocessor"
+  ],
+  "bugs": {
+    "url": "https://github.com/sriharinathuni/karma-kendo-uniquode-preprocessor/issues"
+  },
+  "maintainers": [
+    "Sri Telaprolu <sriharinath.telaprolu@uniquode.in>"
+  ],
+  "dependencies": {
+    "parse5": "^2.1.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sriharinathuni/karma-kendo-uniquode-preprocessor.git"
+  }
+}
