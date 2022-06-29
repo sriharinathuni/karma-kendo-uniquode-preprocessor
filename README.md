@@ -26,7 +26,7 @@ module.exports = function(config) {
     // if you have defined plugins explicitly, add karma-ng-template-script-to-template-cache-preprocessor
     // plugins: ['karma-kendo-uniquode-preprocessor']
 
-    ngTemplatePreprocessor: {
+    uniquodeTemplatePreprocessor: {
       //optional module name , templates by default
       //moduleName: 'specialTemplates'
     }
