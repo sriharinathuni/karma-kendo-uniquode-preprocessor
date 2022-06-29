@@ -14,8 +14,8 @@ $ npm install karma-kendo-uniquode-preprocessor --save-dev
 module.exports = function(config) {
   config.set({
     preprocessors: {
-      '**/*.html': ['ng-template'],
-      '**/*.cshtml': ['ng-template']
+      '**/*.html': ['karma-uniquode-preprocessor'],
+      '**/*.cshtml': ['karma-uniquode-preprocessor']
     },
 
     files: [
